@@ -1,0 +1,12 @@
+Source: ros-turbulent-teleop-twist-joy
+Section: misc
+Priority: extra
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-geometry-msgs, ros-turbulent-launch-ros, ros-turbulent-launch-testing-ament-cmake, ros-turbulent-launch-testing-ros, ros-turbulent-rclcpp, ros-turbulent-rclcpp-components, ros-turbulent-sensor-msgs, ros-turbulent-ros-workspace
+Homepage: http://wiki.ros.org/teleop_twist_joy
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-teleop-twist-joy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-geometry-msgs, ros-turbulent-joy, ros-turbulent-rclcpp, ros-turbulent-rclcpp-components, ros-turbulent-sensor-msgs, ros-turbulent-ros-workspace
+Description: Generic joystick teleop for twist robots.
