@@ -1,0 +1,12 @@
+Source: ros-verystable-teleop-twist-joy
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-geometry-msgs, ros-verystable-launch-ros, ros-verystable-launch-testing-ament-cmake, ros-verystable-launch-testing-ros, ros-verystable-rclcpp, ros-verystable-rclcpp-components, ros-verystable-sensor-msgs, ros-verystable-ros-workspace
+Homepage: http://wiki.ros.org/teleop_twist_joy
+Standards-Version: 3.9.2
+
+Package: ros-verystable-teleop-twist-joy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-geometry-msgs, ros-verystable-joy, ros-verystable-rclcpp, ros-verystable-rclcpp-components, ros-verystable-sensor-msgs, ros-verystable-ros-workspace
+Description: Generic joystick teleop for twist robots.
