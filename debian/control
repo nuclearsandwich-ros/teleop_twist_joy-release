@@ -1,0 +1,12 @@
+Source: ros-testing-teleop-twist-joy
+Section: misc
+Priority: optional
+Maintainer: Chris Lalancette <clalancette@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-geometry-msgs, ros-testing-launch-ros, ros-testing-launch-testing-ament-cmake, ros-testing-launch-testing-ros, ros-testing-rclcpp, ros-testing-rclcpp-components, ros-testing-sensor-msgs, ros-testing-ros-workspace
+Homepage: http://wiki.ros.org/teleop_twist_joy
+Standards-Version: 3.9.2
+
+Package: ros-testing-teleop-twist-joy
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-geometry-msgs, ros-testing-joy, ros-testing-rclcpp, ros-testing-rclcpp-components, ros-testing-sensor-msgs, ros-testing-ros-workspace
+Description: Generic joystick teleop for twist robots.
